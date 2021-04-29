@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UserActions.UserMain">
+  <grid id="27dc6" binding="panMain" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="15" left="0" bottom="15" right="15"/>
+    <constraints>
+      <xy x="20" y="20" width="1226" height="871"/>
+    </constraints>
+    <properties>
+      <background color="-2894893"/>
+    </properties>
+    <border type="none">
+      <font/>
+    </border>
+    <children>
+      <grid id="bcafd" binding="panSidePanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="15" left="15" bottom="15" right="15"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9809753"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="71e5b" binding="panSideReq" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-8362057"/>
+            </properties>
+            <border type="etched"/>
+            <children>
+              <component id="fc816" class="javax.swing.JLabel" binding="lblServiceReq">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft JhengHei" size="22" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Service Request"/>
+                </properties>
+              </component>
+              <component id="41912" class="javax.swing.JLabel" binding="imgServReq">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="b118f" binding="panSideNoti" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-8362057"/>
+            </properties>
+            <border type="etched"/>
+            <children>
+              <component id="3850a" class="javax.swing.JLabel" binding="lblNotification">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft JhengHei" size="22" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Notification"/>
+                </properties>
+              </component>
+              <component id="60f84" class="javax.swing.JLabel" binding="imgNotification">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="22c8f" binding="panSideHistory" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-8362057"/>
+            </properties>
+            <border type="etched"/>
+            <children>
+              <component id="192d4" class="javax.swing.JLabel" binding="lblHistory">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft JhengHei" size="22" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="History"/>
+                </properties>
+              </component>
+              <component id="7e49c" class="javax.swing.JLabel" binding="imgHistory">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="87d23" binding="panSelect" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14869219"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="7771e" binding="panReq" layout-manager="GridLayoutManager" row-count="12" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <card name="Request"/>
+            </constraints>
+            <properties>
+              <background color="-2894893"/>
+            </properties>
+            <border type="bevel-raised"/>
+            <children>
+              <component id="d91d2" class="javax.swing.JLabel" binding="lblTitleServReq">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft JhengHei" size="24" style="1"/>
+                  <foreground color="-9809753"/>
+                  <text value="Service Request"/>
+                </properties>
+              </component>
+              <component id="6cdd1" class="javax.swing.JLabel" binding="lblVehType">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft JhengHei" size="20" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Vehicle Type"/>
+                </properties>
+              </component>
+              <component id="73acb" class="javax.swing.JLabel" binding="lblServType">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft JhengHei" size="20" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Service Type"/>
+                </properties>
+              </component>
+              <component id="98358" class="javax.swing.JLabel" binding="lblDate">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft JhengHei" size="20" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Preferred Date"/>
+                </properties>
+              </component>
+              <component id="a8961" class="javax.swing.JLabel" binding="lblComm">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft JhengHei" size="20" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Comments"/>
+                </properties>
+              </component>
+              <component id="514dd" class="javax.swing.JComboBox" binding="cmbVehType">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <font name="Microsoft JhengHei" size="20" style="1"/>
+                  <foreground color="-16777216"/>
+                  <model>
+                    <item value="Yamaha R15 V3"/>
+                    <item value="Yamaha FZ25"/>
+                    <item value="Yamaha FZ FI"/>
+                    <item value="Yamaha FZS FI"/>
+                    <item value="Yamaha Ray ZR"/>
+                    <item value="Yamaha Fascino"/>
+                    <item value="Yamaha Crux"/>
+                    <item value="Yamaha SZ"/>
+                    <item value="Yamaha MT15"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="44fe4" class="javax.swing.JComboBox" binding="cmbServType">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Microsoft JhengHei" size="20" style="1"/>
+                  <foreground color="-16777216"/>
+                  <model>
+                    <item value="Paid Service"/>
+                    <item value="Free Service"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="b264e" class="javax.swing.JTextArea" binding="txtAreaComments">
+                <constraints>
+                  <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Microsoft JhengHei" size="18"/>
+                  <foreground color="-16777216"/>
+                  <lineWrap value="true"/>
+                </properties>
+              </component>
+              <component id="fb557" class="javax.swing.JLabel" binding="lblVehNum">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft JhengHei" size="20" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Vehicle Number"/>
+                </properties>
+              </component>
+              <component id="6c06e" class="javax.swing.JTextField" binding="txtVehicleNum">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Microsoft JhengHei" size="20" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="65180" class="javax.swing.JLabel" binding="lblValVehNum">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft JhengHei" size="16" style="3"/>
+                  <foreground color="-4127488"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <grid id="2a4f9" binding="panDatePicker" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="8e7a3" class="javax.swing.JToolBar$Separator">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="ee631" class="javax.swing.JToolBar$Separator">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="6f3d2" class="javax.swing.JToolBar$Separator">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="99f3b" class="javax.swing.JToolBar$Separator">
+                <constraints>
+                  <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="e3996" class="javax.swing.JButton" binding="btnSubmit">
+                <constraints>
+                  <grid row="11" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-9809753"/>
+                  <font name="Microsoft JhengHei" size="20" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Submit"/>
+                </properties>
+              </component>
+              <component id="8d690" class="javax.swing.JButton" binding="btnClear">
+                <constraints>
+                  <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-9809753"/>
+                  <font name="Microsoft JhengHei" size="20" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Clear"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="eb249" binding="panNotification" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <card name="Notification"/>
+            </constraints>
+            <properties>
+              <background color="-2894893"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="18122" class="javax.swing.JLabel" binding="lblTitleNotification">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft JhengHei" size="24" style="1"/>
+                  <foreground color="-9809753"/>
+                  <text value="Notifications!"/>
+                </properties>
+              </component>
+              <grid id="3780c" binding="NotifList" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="5" left="5" bottom="5" right="5"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-2894893"/>
+                </properties>
+                <border type="bevel-raised"/>
+                <children>
+                  <component id="a31a9" class="javax.swing.JList" binding="jlistNotification">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-2894893"/>
+                      <font name="Microsoft JhengHei" size="20" style="1"/>
+                      <foreground color="-3793291"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="5f732" binding="NotiInfo" layout-manager="GridLayoutManager" row-count="12" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="10" left="10" bottom="10" right="10"/>
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-2894893"/>
+                </properties>
+                <border type="bevel-raised"/>
+                <children>
+                  <component id="4cd90" class="javax.swing.JLabel" binding="lblTitleJobCard">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Microsoft JhengHei" size="24" style="1"/>
+                      <foreground color="-9809753"/>
+                      <text value="Job Card Details"/>
+                    </properties>
+                  </component>
+                  <component id="a415e" class="javax.swing.JLabel" binding="lblServEngName">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Microsoft JhengHei" size="20" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Service Engineer Name"/>
+                    </properties>
+                  </component>
+                  <component id="4c249" class="javax.swing.JLabel" binding="lblScratches">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Microsoft JhengHei" size="20" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Scratches/Dents"/>
+                    </properties>
+                  </component>
+                  <component id="de5dd" class="javax.swing.JLabel" binding="lblQuotation">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Microsoft JhengHei" size="20" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Quotation"/>
+                    </properties>
+                  </component>
+                  <component id="28771" class="javax.swing.JLabel" binding="lblDelDate">
+                    <constraints>
+                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Microsoft JhengHei" size="20" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Estimated Delivery Date"/>
+                    </properties>
+                  </component>
+                  <component id="39c25" class="javax.swing.JTextField" binding="txtDisplayName">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <font name="Microsoft JhengHei" size="20" style="1"/>
+                      <foreground color="-16777216"/>
+                    </properties>
+                  </component>
+                  <component id="8aaf5" class="javax.swing.JTextField" binding="txtDisplayDelDate">
+                    <constraints>
+                      <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <font name="Microsoft JhengHei" size="20" style="1"/>
+                      <foreground color="-131587"/>
+                    </properties>
+                  </component>
+                  <component id="20f65" class="javax.swing.JTextArea" binding="txtDisplayQuot">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="400" height="300"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <font name="Microsoft JhengHei" size="16" style="1"/>
+                      <foreground color="-16777216"/>
+                    </properties>
+                  </component>
+                  <component id="4dc54" class="javax.swing.JToolBar$Separator">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="f373" class="javax.swing.JToolBar$Separator">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="61ee6" class="javax.swing.JToolBar$Separator">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="3f0dc" class="javax.swing.JButton" binding="btnApprove">
+                    <constraints>
+                      <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-9809753"/>
+                      <font name="Microsoft JhengHei" size="20" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Approve"/>
+                    </properties>
+                  </component>
+                  <component id="bdef0" class="javax.swing.JToolBar$Separator">
+                    <constraints>
+                      <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="2e60f" class="javax.swing.JTextArea" binding="txtAreaDisplayScratches">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <font name="Microsoft JhengHei" size="18" style="1"/>
+                      <foreground color="-16777216"/>
+                    </properties>
+                  </component>
+                  <component id="f791e" class="javax.swing.JLabel" binding="lblComment">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Microsoft JhengHei" size="20" style="1"/>
+                      <foreground color="-16777216"/>
+                      <text value="Comments"/>
+                    </properties>
+                  </component>
+                  <component id="d238a" class="javax.swing.JTextArea" binding="txtAreaDsiplayComments">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <font name="Microsoft JhengHei" size="18" style="1"/>
+                      <foreground color="-16777216"/>
+                    </properties>
+                  </component>
+                  <component id="a9e94" class="javax.swing.JToolBar$Separator">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="af6b4" binding="panHistory" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="15" left="15" bottom="15" right="15"/>
+            <constraints>
+              <card name="History"/>
+            </constraints>
+            <properties>
+              <background color="-2894893"/>
+            </properties>
+            <border type="bevel-raised"/>
+            <children>
+              <component id="89487" class="javax.swing.JLabel" binding="lblTitleHistory">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft JhengHei" size="24" style="1"/>
+                  <foreground color="-9809753"/>
+                  <text value="History"/>
+                </properties>
+              </component>
+              <vspacer id="65145">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="2eef6" binding="panWelcome" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <card name="Welcome"/>
+            </constraints>
+            <properties>
+              <background color="-2894893"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e5a52" class="javax.swing.JLabel" binding="imgWelcome">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="2e3ab" class="javax.swing.JLabel" binding="lblWelcome">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Microsoft JhengHei" size="20" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="834f5" class="javax.swing.JButton" binding="btnExit">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3793291"/>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="7efcf" class="javax.swing.JButton" binding="btnContact">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3793291"/>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Contact Us"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="LR.ServiceEngineerRegister">
+  <grid id="27dc6" binding="panMain" layout-manager="GridLayoutManager" row-count="17" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="15" left="15" bottom="15" right="15"/>
+    <constraints>
+      <xy x="20" y="20" width="548" height="607"/>
+    </constraints>
+    <properties>
+      <background color="-2894893"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2731b" class="javax.swing.JLabel" binding="imgServEngReg">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9545c" class="javax.swing.JLabel" binding="lblTitle">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="24" style="1"/>
+          <foreground color="-9809753"/>
+          <text value="Service Engineer Register"/>
+        </properties>
+      </component>
+      <component id="7131c" class="javax.swing.JLabel" binding="lblFirstName">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="First Name"/>
+        </properties>
+      </component>
+      <component id="62660" class="javax.swing.JLabel" binding="lblLastName">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Last Name"/>
+        </properties>
+      </component>
+      <component id="d3874" class="javax.swing.JLabel" binding="lblEmail">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="c832d" class="javax.swing.JLabel" binding="lblUsername">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Username"/>
+        </properties>
+      </component>
+      <component id="683a7" class="javax.swing.JLabel" binding="lblPass">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="a2b1c" class="javax.swing.JLabel" binding="lblConfPass">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Confirm Password"/>
+        </properties>
+      </component>
+      <component id="fcdef" class="javax.swing.JTextField" binding="txtFirstName">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="9f49e" class="javax.swing.JTextField" binding="txtLastName">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="b1274" class="javax.swing.JTextField" binding="txtEmail">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="a6ba4" class="javax.swing.JTextField" binding="txtUsername">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="fb8f6" class="javax.swing.JPasswordField" binding="pfPass">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="e08d7" class="javax.swing.JPasswordField" binding="pfCnfPass">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="d1319" class="javax.swing.JLabel" binding="lblValFirstName">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="16" style="3"/>
+          <foreground color="-4127488"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bca99" class="javax.swing.JLabel" binding="lblValLastName">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="16" style="3"/>
+          <foreground color="-4127488"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3988b" class="javax.swing.JLabel" binding="lblValEmail">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="16" style="3"/>
+          <foreground color="-4127488"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3d9b6" class="javax.swing.JLabel" binding="lblValUserName">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="16" style="3"/>
+          <foreground color="-4127488"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="daacd" class="javax.swing.JLabel" binding="lblValPass">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="16" style="3"/>
+          <foreground color="-4127488"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a54d0" class="javax.swing.JLabel" binding="lblValCnfPass">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="16" style="3"/>
+          <foreground color="-4127488"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="651e7" class="javax.swing.JButton" binding="btnSubmit">
+        <constraints>
+          <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9809753"/>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Submit"/>
+        </properties>
+      </component>
+      <component id="77430" class="javax.swing.JButton" binding="btnExit">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9809753"/>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="ec956" class="javax.swing.JButton" binding="btnClear">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9809753"/>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <component id="90a47" class="javax.swing.JLabel" binding="lblMobile">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Mobile Number"/>
+        </properties>
+      </component>
+      <component id="6b205" class="javax.swing.JTextField" binding="txtMobile">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Microsoft JhengHei" size="20" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="9cc2a" class="javax.swing.JLabel" binding="lblValMobile">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Microsoft JhengHei" size="16" style="3"/>
+          <foreground color="-4127488"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
